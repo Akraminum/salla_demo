@@ -7,7 +7,7 @@ from .models import Merchant as MerchantModel
 from .models import MerchantToken as MerchantTokensModel
 from .models import UserInfo as UserInfoModel
 
-from product.utilis import ProductUtility
+from product.utilities import ProductUtility
 
 
 class InvalidExpiresDate(exceptions.APIException):

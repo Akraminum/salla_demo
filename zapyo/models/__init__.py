@@ -1,0 +1,1 @@
+from .entity_x import Contact

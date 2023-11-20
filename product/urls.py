@@ -1,6 +1,6 @@
 
 from django.urls import path
-from .views import ProductViewSet
+from .api.views import ProductViewSet
 from rest_framework import routers
 from django.urls import include
 

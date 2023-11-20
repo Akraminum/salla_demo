@@ -3,11 +3,11 @@ import json
 from apiclient.exceptions import APIClientError
 
 from product.api_client import ProductAPIClient
-from product.models import Product, ProductPrice
-from product.serializers import ProductSerializer
+from product.models import Product
+from product.api.serializers import ProductSerializer
 
 
-class ProductUtility:
+class ProductUtility: 
     ...
     @classmethod
     def populate_database(self, merchant_id, access_token):
@@ -66,13 +66,13 @@ class ProductUtility:
             v = product.delete()
         return True
 
-    @classmethod
-    def create_product_price(self, product_id, price_dict):
-        ProductPrice.objects.create(
-            product=product_id,
-            **price_dict
-            )
-        return True
+    # @classmethod
+    # def create_product_price(self, product_id, price_dict):
+    #     ProductPrice.objects.create(
+    #         product=product_id,
+    #         **price_dict
+    #         )
+    #     return True
 
 
 

@@ -1,5 +1,5 @@
 from event.event_handlers.base import BaseEventHandler
-from .utilis import ProductUtility
+from .utilities import ProductUtility
 
 class ProductEventHandler(BaseEventHandler):
     name = "ProductEventHandler"
