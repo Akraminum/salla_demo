@@ -1,0 +1,402 @@
+{
+    "sku": "2400407-20000012320-",
+    "mpn": null,
+    "gtin": null,
+    "sale_end": null,
+    
+    "promotion": {
+        "title": null,
+        "sub_title": null
+    },
+    "urls": {
+        "customer": "https://salla.sa/dev-jhnmyomat2m1nqve/\u062a\u0646\u0648\u0631\u0629/p2435713",
+        "admin": "https://s.salla.sa/products/2435713"
+    },
+    "images": [
+        {
+            "id": 1659903488,
+            "url": "https://salla-dev.s3.eu-central-1.amazonaws.com/nWzD/Nhx4XNJCHxzQcyaPBA9SQuJbzZc0EI8bb1ZeU1pR.jpg",
+            "main": false,
+            "three_d_image_url": "",
+            "alt": "\u062a\u0646\u0648\u0631\u0629",
+            "video_url": "",
+            "type": "image",
+            "sort": 0
+        }
+    ],
+    "rating": {
+        "total": 0,
+        "count": 1,
+        "rate": 0
+    },
+    "regular_price": {
+        "amount": 279,
+        "currency": "SAR"
+    },
+    "max_items_per_user": 0,
+    "show_in_app": false,
+    "notify_quantity": null,
+    "managed_by_branches": false,
+    "services_blocks": {
+        "installments": []
+    },
+    "customized_sku_quantity": false,
+    "channels": [],
+    "metadata": {
+        "title": null,
+        "description": null,
+        "url": null
+    },
+    "allow_attachments": false,
+    "is_pinned": false,
+    "pinned_date": "2021-08-26 09:58:48",
+    "sort": 0,
+    "enable_upload_image": false,
+    "updated_at": "2023-11-14 16:45:04",
+    "options": [
+        {
+            "id": 142919217,
+            "name": "\u0627\u0644\u0645\u0642\u0627\u0633",
+            "description": null,
+            "type": "radio",
+            "required": false,
+            "associated_with_order_time": 0,
+            "availability_range": false,
+            "not_same_day_order": false,
+            "choose_date_time": null,
+            "from_date_time": null,
+            "to_date_time": null,
+            "sort": null,
+            "advance": true,
+            "display_type": "text",
+            "visibility": "always",
+            "translations": {
+                "ar": {
+                    "option_name": "\u0627\u0644\u0645\u0642\u0627\u0633",
+                    "description": null
+                }
+            },
+            "values": [
+                {
+                    "id": 1148268379,
+                    "name": "44 - XL",
+                    "price": {
+                        "amount": 0,
+                        "currency": "SAR"
+                    },
+                    "formatted_price": "",
+                    "display_value": null,
+                    "advance": true,
+                    "option_id": 142919217,
+                    "image_url": null,
+                    "hashed_display_value": null,
+                    "translations": {
+                        "ar": {
+                            "option_details_name": "44 - XL"
+                        }
+                    },
+                    "is_default": false,
+                    "is_out_of_stock": true
+                },
+                {
+                    "id": 375279012,
+                    "name": "42 - L",
+                    "price": {
+                        "amount": 0,
+                        "currency": "SAR"
+                    },
+                    "formatted_price": "",
+                    "display_value": null,
+                    "advance": true,
+                    "option_id": 142919217,
+                    "image_url": null,
+                    "hashed_display_value": null,
+                    "translations": {
+                        "ar": {
+                            "option_details_name": "42 - L"
+                        }
+                    },
+                    "is_default": false,
+                    "is_out_of_stock": false
+                },
+                {
+                    "id": 1614507173,
+                    "name": "40 - M",
+                    "price": {
+                        "amount": 0,
+                        "currency": "SAR"
+                    },
+                    "formatted_price": "",
+                    "display_value": null,
+                    "advance": true,
+                    "option_id": 142919217,
+                    "image_url": null,
+                    "hashed_display_value": null,
+                    "translations": {
+                        "ar": {
+                            "option_details_name": "40 - M"
+                        }
+                    },
+                    "is_default": false,
+                    "is_out_of_stock": false
+                },
+                {
+                    "id": 838962086,
+                    "name": "38 - S",
+                    "price": {
+                        "amount": 0,
+                        "currency": "SAR"
+                    },
+                    "formatted_price": "",
+                    "display_value": null,
+                    "advance": true,
+                    "option_id": 142919217,
+                    "image_url": null,
+                    "hashed_display_value": null,
+                    "translations": {
+                        "ar": {
+                            "option_details_name": "38 - S"
+                        }
+                    },
+                    "is_default": false,
+                    "is_out_of_stock": false
+                },
+                {
+                    "id": 267299495,
+                    "name": "36 - XS",
+                    "price": {
+                        "amount": 0,
+                        "currency": "SAR"
+                    },
+                    "formatted_price": "",
+                    "display_value": null,
+                    "advance": true,
+                    "option_id": 142919217,
+                    "image_url": null,
+                    "hashed_display_value": null,
+                    "translations": {
+                        "ar": {
+                            "option_details_name": "36 - XS"
+                        }
+                    },
+                    "is_default": false,
+                    "is_out_of_stock": true
+                }
+            ]
+        }
+    ],
+    "skus": [
+        {
+            "id": 376839962,
+            "price": {
+                "amount": 83,
+                "currency": "SAR"
+            },
+            "regular_price": {
+                "amount": 279,
+                "currency": "SAR"
+            },
+            "cost_price": {
+                "amount": 0,
+                "currency": "SAR"
+            },
+            "sale_price": {
+                "amount": 83,
+                "currency": "SAR"
+            },
+            "has_special_price": true,
+            "stock_quantity": 0,
+            "unlimited_quantity": false,
+            "notify_low": null,
+            "barcode": null,
+            "sku": null,
+            "mpn": null,
+            "gtin": null,
+            "related_options": [
+                142919217
+            ],
+            "related_option_values": [
+                1148268379
+            ],
+            "weight": null,
+            "weight_type": "kg",
+            "weight_label": "\u0660\u066b\u0661 \u0643\u062c\u0645",
+            "is_user_subscribed_to_sku": false,
+            "is_default": false
+        },
+        {
+            "id": 1616068123,
+            "price": {
+                "amount": 83,
+                "currency": "SAR"
+            },
+            "regular_price": {
+                "amount": 279,
+                "currency": "SAR"
+            },
+            "cost_price": {
+                "amount": 0,
+                "currency": "SAR"
+            },
+            "sale_price": {
+                "amount": 83,
+                "currency": "SAR"
+            },
+            "has_special_price": true,
+            "stock_quantity": 1,
+            "unlimited_quantity": false,
+            "notify_low": null,
+            "barcode": null,
+            "sku": null,
+            "mpn": null,
+            "gtin": null,
+            "related_options": [
+                142919217
+            ],
+            "related_option_values": [
+                375279012
+            ],
+            "weight": null,
+            "weight_type": "kg",
+            "weight_label": "\u0660\u066b\u0661 \u0643\u062c\u0645",
+            "is_user_subscribed_to_sku": false,
+            "is_default": false
+        },
+        {
+            "id": 842554724,
+            "price": {
+                "amount": 83,
+                "currency": "SAR"
+            },
+            "regular_price": {
+                "amount": 279,
+                "currency": "SAR"
+            },
+            "cost_price": {
+                "amount": 0,
+                "currency": "SAR"
+            },
+            "sale_price": {
+                "amount": 83,
+                "currency": "SAR"
+            },
+            "has_special_price": true,
+            "stock_quantity": 1,
+            "unlimited_quantity": false,
+            "notify_low": null,
+            "barcode": null,
+            "sku": null,
+            "mpn": null,
+            "gtin": null,
+            "related_options": [
+                142919217
+            ],
+            "related_option_values": [
+                1614507173
+            ],
+            "weight": null,
+            "weight_type": "kg",
+            "weight_label": "\u0660\u066b\u0661 \u0643\u062c\u0645",
+            "is_user_subscribed_to_sku": false,
+            "is_default": false
+        },
+        {
+            "id": 201686117,
+            "price": {
+                "amount": 83,
+                "currency": "SAR"
+            },
+            "regular_price": {
+                "amount": 279,
+                "currency": "SAR"
+            },
+            "cost_price": {
+                "amount": 0,
+                "currency": "SAR"
+            },
+            "sale_price": {
+                "amount": 83,
+                "currency": "SAR"
+            },
+            "has_special_price": true,
+            "stock_quantity": 2,
+            "unlimited_quantity": false,
+            "notify_low": null,
+            "barcode": null,
+            "sku": null,
+            "mpn": null,
+            "gtin": null,
+            "related_options": [
+                142919217
+            ],
+            "related_option_values": [
+                838962086
+            ],
+            "weight": null,
+            "weight_type": "kg",
+            "weight_label": "\u0660\u066b\u0661 \u0643\u062c\u0645",
+            "is_user_subscribed_to_sku": false,
+            "is_default": false
+        },
+        {
+            "id": 1508088678,
+            "price": {
+                "amount": 83,
+                "currency": "SAR"
+            },
+            "regular_price": {
+                "amount": 279,
+                "currency": "SAR"
+            },
+            "cost_price": {
+                "amount": 0,
+                "currency": "SAR"
+            },
+            "sale_price": {
+                "amount": 83,
+                "currency": "SAR"
+            },
+            "has_special_price": true,
+            "stock_quantity": 0,
+            "unlimited_quantity": false,
+            "notify_low": null,
+            "barcode": null,
+            "sku": null,
+            "mpn": null,
+            "gtin": null,
+            "related_options": [
+                142919217
+            ],
+            "related_option_values": [
+                267299495
+            ],
+            "weight": null,
+            "weight_type": "kg",
+            "weight_label": "\u0660\u066b\u0661 \u0643\u062c\u0645",
+            "is_user_subscribed_to_sku": false,
+            "is_default": false
+        }
+    ],
+    "categories": [
+        {
+            "id": 1395000501,
+            "name": "\u0627\u0644\u062a\u0646\u0627\u0646\u064a\u0631",
+            "urls": {
+                "customer": "https://salla.sa/dev-jhnmyomat2m1nqve/\u0627\u0644\u062a\u0646\u0627\u0646\u064a\u0631/c1395000501",
+                "admin": "https://s.salla.sa/categories"
+            },
+            "items": [],
+            "parent_id": 0,
+            "status": "active",
+            "sort_order": 12,
+            "update_at": "2023-11-14 16:45:04",
+            "metadata": {
+                "title": null,
+                "description": null,
+                "url": null
+            }
+        }
+    ],
+    "brand": null,
+    "tags": []
+},
