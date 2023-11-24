@@ -3,28 +3,22 @@ from django.utils.translation import gettext_lazy as _
 from merchants.models import Merchant
  
 
-
+  
 class Product(models.Model):
     id = models.PositiveIntegerField(_("ID"), primary_key=True)
-    
     #region General
     name = models.TextField(_("Name"))
     description = models.TextField(_("Description"), blank=True, null=True)
     #endregion
 
     #region Prices
-    price       = models.DecimalField(_("Price"),       max_digits=8, decimal_places=2, default=0)
-    sale_price  = models.DecimalField(_("Sale Price"),  max_digits=8, decimal_places=2, default=0)
-    cost_price  = models.DecimalField(_("Cost Price"),  max_digits=8, decimal_places=2, default=0)
-    sale_end    = models.DecimalField(_("Sale End"),    max_digits=8, decimal_places=2, default=0)
-    #endregion
-
-    #region Quantity
-    unlimited_quantity = models.BooleanField(_("Unlimited Quantity"), default=False)
-    hide_quantity = models.BooleanField(_("Hide Quantity"), default=False)
-    quantity = models.PositiveIntegerField(_("Quantity"), default=0)
-    sold_quantity = models.PositiveIntegerField(_("Sold Quantity"), default=0)
-    maximum_quantity_per_order = models.PositiveIntegerField(_("Maximum Quantity Per Order"), default=0)
+    price_amount = models.DecimalField(_("Price"), max_digits=8, decimal_places=2, default=0)
+    taxed_price_amount = models.DecimalField(_("taxed_price_amount"), max_digits=8, decimal_places=2, default=0)
+    pre_tax_price_amount = models.DecimalField(_("pre_tax_price_amount"), max_digits=8, decimal_places=2, default=0)
+    tax_amount = models.DecimalField(_("tax_amount"), max_digits=8, decimal_places=2, default=0)
+    cost_price = models.DecimalField(_("cost_price"), max_digits=8, decimal_places=2, default=0)
+    regular_price_amount = models.DecimalField(_("regular_price_amount"), max_digits=8, decimal_places=2, default=0)
+    price_currency = models.CharField(_("Price Currency"), max_length=3, default="SAR")
     #endregion
 
     #region commented
@@ -57,6 +51,13 @@ class Product(models.Model):
     tags = models.ManyToManyField(
         "product.ProductTag",
         verbose_name=_("Tags"),
+        related_name="products",
+        blank=True,
+    )
+
+    categories  = models.ManyToManyField(
+        "category.category",
+        verbose_name=_("Categories"),
         related_name="products",
         blank=True,
     )

@@ -3,6 +3,8 @@ from datetime import date
 from django.utils.timezone import datetime
 from rest_framework import exceptions
 
+from category.utilities import CategoryUtility
+
 from .models import Merchant as MerchantModel
 from .models import MerchantToken as MerchantTokensModel
 from .models import UserInfo as UserInfoModel
@@ -108,7 +110,6 @@ class MerchantUtility:
     @staticmethod
     def populate_database(merchant_id, access_token):
         ...
-
-        ProductUtility.populate_database(merchant_id, access_token)
-        # CategoryUtility.populate_database(merchant)
+        # ProductUtility.populate_database(merchant_id, access_token)
+        CategoryUtility.populate_database(merchant_id, access_token)
     

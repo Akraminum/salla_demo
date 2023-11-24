@@ -1,5 +1,5 @@
 import json
-from event.event_handlers.base import BaseEventHandler
+from hook.event_handlers.base import BaseEventHandler
 
 from .models import Merchant
 from .serializers import MerchantTokenSerialiser, MerchantSerializer
@@ -13,7 +13,7 @@ class StoreAuthorizeHandler(BaseEventHandler):
     
 
     def handle(self, merchant_id, event_data): 
-        print(f"proccessing: {self.event_base}.{self.event_path}")
+        # print(f"proccessing: {self.event_base}.{self.event_path}")
         
 
         merchant = MerchantUtility.get_or_create_merchant(merchant_id=merchant_id)

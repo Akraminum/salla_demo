@@ -1,4 +1,4 @@
-from event.event_handlers.base import BaseEventHandler
+from hook.event_handlers.base import BaseEventHandler
 from .utilities import ProductUtility
 
 class ProductEventHandler(BaseEventHandler):
